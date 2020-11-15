@@ -1,0 +1,14 @@
+REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
+mike-ntrt/ubuntu-tmp-file   latest              7fd3f21b311b        8 seconds ago       63.2MB
+ubuntu                      18.04               56def654ec22        6 weeks ago         63.2MB
+hello-world                 latest              bf756fb1ae65        10 months ago       13.3kB
+
+разница между контейнером и образом на основе docker inspect:
+контейнер - исполняемая сущьность.
+это видно из того, что inspect показывает его статус:
+State": {
+            "Status": "running",
+            "Running": true,
+            ...
+}
+образ - это просто статичный файл-шаблон.
