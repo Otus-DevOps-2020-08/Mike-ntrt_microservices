@@ -4,6 +4,10 @@
 
 Mike-ntrt microservices repository  
 
+### HW Lec 17 - Docker-3
+
+deploy an App with microservice archotecture
+
 ### HW Lec 16 - Docker-2
 
 create YC VM & install docker using docker-machine  
